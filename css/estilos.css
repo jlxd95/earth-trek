@@ -1,0 +1,74 @@
+.logo{
+width:35%;
+}
+.social-media{
+width:20%;	
+	
+}
+.contenido{
+width:80%;	
+
+}
+
+.foto{
+width:95%;	
+}
+.foto2{
+width:45%;
+float:left;
+margin-right:1%; 	
+}
+
+.fecha{
+background:silver;
+color:white;	
+padding:1.5%;	
+}
+.autor{
+width:35%;
+margin-top:2%;	
+}
+
+.autoria{
+background:#ECE9E1;
+height:auto;
+
+}
+
+
+.autoria2{
+background:#ECE9E1;
+height:auto;
+display:none;
+}
+
+.textarea1{
+color:white;	
+}
+
+.footer{
+margin-top:5%;
+background:#E8312E;	
+color:white;
+height:170px;
+text-align:center;	
+}
+
+  /*version movil*/
+
+ @media (max-width:599px){
+
+  .social-media{
+  display:none; 
+ }
+  
+ .autoria2{
+  display:block; 
+ }  
+
+ .autoria{
+  display:none;	 
+ }
+ 
+
+ }
